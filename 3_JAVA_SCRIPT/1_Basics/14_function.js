@@ -8,5 +8,5 @@ function myFunction(para1, para2) {
   return para1 * para2;
 }
 
-result = myFunction(7, 9);
+let result = myFunction(7, 9);
 console.log(result);
