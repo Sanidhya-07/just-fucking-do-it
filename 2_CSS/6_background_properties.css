@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  height: 70vh;
+  width: 70vw;
+  border: 5px solid black;
+
+  background-image: radial-gradient(
+      rgba(0, 128, 128, 0.277),
+      rgba(33, 142, 33, 0.275)
+    ),
+    url(https://imaginewithrashid.com/wp-content/uploads/2024/10/rashidckk_Long_shot_of_a_small_glowing_light_bulb_hanging_fro_2171f9fe-54a6-48d2-8d0c-c191c22ca4e7_2.webp);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  /* background-attachment: fixed; */
+
+  filter: none; //cheak options
+}

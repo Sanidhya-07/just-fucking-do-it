@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Forms</title>
+</head>
+<body>
+    <!-- First Form -->
+    <form>
+        <fieldset>
+
+            <legend>Employee Details</legend>            
+            <label for="f-name">First Name : </label>
+            <input type="text" id="f-name" name="firstName">
+            <br>
+            <br>
+
+            <label for="l-name">Last Name : </label>
+            <input type="text" id="l-name" name="lastName">
+            <br>
+            <br>
+
+            <label for="m-gender"><input type="radio" name="gender" id="m-gender" value="Male">Male</label>
+        
+            <label for="f-gender"><input type="radio" name="gender" id="f-gender" value="Female">Female</label>
+
+            <br>
+            <br>
+            <label for="emp-id">Employee ID : </label>
+            <input type="text" id="emp-id" name="EmployeeID">
+            <br>
+            <br>
+
+            <label for="designation">Designation: </label>
+            <input type="text" id="designation" name="designation">
+            <br>
+            <br>
+
+            <label for="phone">Phone: </label>
+            <input type="tel" id="phone" name="phone">
+            <br>
+            <br>
+            <!-- <input type="submit"> -->
+            <button type="submit">SUBMIT</button>
+            </fieldset>
+
+        
+    </form>
+    
+    <br>
+    <br>
+
+
+    <!-- Second Form -->
+    <form>
+        <fieldset>
+            <legend>Buyer Details</legend>
+
+            <label for="username">UserName :</label>
+            <input type="text" id="username" name="UserName">
+            <br>
+            <br>
+
+            <label for="password">Password :</label>
+            <input type="password" id="password" name="Password">
+            <br>
+            <br>
+
+            <label for="city-emp">City Of <br>Employeement :</label>
+            <input type="text" id="city-emp" name="Employeement-City">
+            <br>
+            <br>
+
+            <label for="web-server">Web Server :</label>
+            <select name="webServer" id="web-server">
+                <option value="">Please choose an option</option>
+                <option value="Brave">Brave</option>
+                <option value="Chrome">Chrome</option>
+                <option value="Microsoft Edge">Microsoft Edge</option>
+                <option value="Safari">Safari</option>
+            </select>
+            <br>
+            <br>
+
+            <label>Specify your role :</label>
+        
+            <label for="role-A"> <input type="radio" name="role" id="role-A" value="Admin"> Admin </label>
+            <label for="role-E"> <input type="radio" name="role" id="role-E" value="Engineer"> Engineer </label>
+            <label for="role-M"> <input type="radio" name="role" id="role-M" value="Manager"> Manager </label>
+            <label for="role-G"> <input type="radio" name="role" id="role-G" value="Guest"> Guest </label>
+            <br>
+            <br>
+        
+            <label>Single sign-on<br> to the following :</label>
+        
+            <label for="mail"> <input type="checkbox" name="sign-on-option" id="mail" value="Mail"> Mail </label>
+            <label for="payroll"> <input type="checkbox" name="sign-on-option" id="payroll" value="Payroll"> Payroll </label>
+            <label for="self-service"> <input type="checkbox" name="sign-on-option" id="self-service" value="Self-service"> Self-service </label>
+            <br>
+            <br>
+            <button type="submit">LOGIN</button>
+            <button type="reset">RESET</button>
+
+        </fieldset>
+    </form>
+</body>
+</html>
+

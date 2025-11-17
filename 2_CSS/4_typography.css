@@ -1,0 +1,14 @@
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: oblique;
+    line-height: 40px;
+    text-transform:uppercase;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    text-align: center;
+    text-decoration:underline;
+    cursor: pointer;
+
+}

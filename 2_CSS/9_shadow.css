@@ -1,0 +1,20 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-transform: uppercase;
+  margin: 4em 0em;
+  text-align: center;
+  color: crimson;
+  text-shadow: 5px 10px 4px green;
+}
+
+div {
+  height: 200px;
+  width: 500px;
+  background-color: aquamarine;
+  box-shadow: 10px 10px 4px rgb(129, 25, 84);
+}
