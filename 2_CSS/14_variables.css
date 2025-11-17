@@ -1,0 +1,14 @@
+:root {
+  --primary-color: teal;
+  --secondry-color: red;
+  --font-size: 100px;
+}
+
+p {
+  color: var(--primary-color);
+}
+
+h1 {
+  font-size: var(--font-size);
+  color: var(--secondry-color);
+}
