@@ -1,3 +1,12 @@
+const person = {
+  firstName: "Sanidhya",
+  lastName: "Naik",
+  age: 21,
+  location: ["ichalkaranji", "pune"],
+  id: { adhar: 12041255879, pancard: "CRJTO5879P" },
+};
+console.log(person);
+
 // 1. Create object name (car)
 // 2. add (type, model, color) as properties
 // 3. check the type of object
