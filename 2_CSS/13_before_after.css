@@ -1,0 +1,14 @@
+p::before {
+  content: "Rohit Sharma";
+  color: blue;
+  font-size: larger;
+  font-weight: bold;
+}
+
+h4::after {
+  content: "Virat Kohli";
+  color: red;
+  font-size: larger;
+  font-weight: bold;
+  font-style: oblique;
+}
