@@ -1,3 +1,5 @@
+// first example
+
 function greet(name, cb) {
   console.log(`hello ${name}`);
   cb();
@@ -11,6 +13,18 @@ function greet(name, cb) {
 
 greet("sunny", function callback() {
   console.log("Hii, I am callback function.");
+});
+
+// Second example
+
+function add(x, y, fn) {
+  let c = x + y;
+  console.log("Addition is: ", c);
+  fn(c);
+}
+
+add(3, 4, function (c) {
+  console.log("Power of 2 is: ", c ** 2);
 });
 
 //  --- Task ---
