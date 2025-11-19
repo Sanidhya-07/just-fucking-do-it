@@ -22,4 +22,4 @@ const intervalId = setInterval(function () {
 setTimeout(function () {
   clearInterval(intervalId);
   console.log("Function is stopped");
-}, 30000);
+}, 25000);
