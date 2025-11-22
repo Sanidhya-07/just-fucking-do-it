@@ -1,7 +1,6 @@
 let words = ["sanidhya", "prem", "deepak", "digu", "tushar"];
 
-let capWords = words.forEach((words, index, arr) => {
-  //   console.log(words.toLocaleUpperCase());
+words.forEach((words, index, arr) => {
   arr[index] = words[0].toLocaleUpperCase() + words.substring(1);
 });
 console.log(words);
@@ -24,6 +23,5 @@ let sum = 0;
 numbers.forEach((number) => {
   sum += number;
 });
-
 
 console.log(`Addition is ${sum}`);
