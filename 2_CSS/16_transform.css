@@ -18,7 +18,6 @@
   background-color: brown;
   /* transform: skew(50deg); */
 
-
   transition: all 3s ease-in 2s;
 }
 .box:hover {
