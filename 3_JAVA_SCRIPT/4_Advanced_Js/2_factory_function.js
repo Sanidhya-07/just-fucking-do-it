@@ -1,4 +1,4 @@
-// If a function return object then it is called factory function.
+// If a function return object and also create object then it is called factory function.
 
 // create a factory function that generates different types of vehicles.
 // Each vehicle object should have properties like type, brand, model, and year.
