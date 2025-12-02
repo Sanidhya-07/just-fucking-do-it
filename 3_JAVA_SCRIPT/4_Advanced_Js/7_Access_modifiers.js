@@ -1,5 +1,5 @@
 // Public, Private, Protected Example
-
+// Parant Class
 class Bank {
   #pin; // private property
 
@@ -18,6 +18,7 @@ class Bank {
   }
 }
 
+// Child class
 class Saving extends Bank {
   addInterest(amount) {
     this._balance += amount; // allowed because _balance is protected
