@@ -4,14 +4,16 @@ fetch("https://api.github.com/users")
   })
 
   .then((data) => {
-    // console.log(data);
+    const parant = document.querySelector(".images");
 
-    for (i = 0; i < data.length; i++) {
-      const parant = document.querySelector(".images");
+    data.forEach((element) => {
       const img1 = document.createElement("img");
-      img1.src = data[i].avatar_url;
+      img1.src = element.avatar_url;
       img1.classList.add("images10");
 
       parant.append(img1);
-    }
+    });
+  })
+  .catch((error) => {
+    console.log("Error : ", error);
   });
