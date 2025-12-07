@@ -41,23 +41,23 @@ function pickupOrder(orderDetails, callback) {
   }, 5000);
 }
 
-function deliverOrder() {
+function deliverOrder(orderDetails) {
   setTimeout(() => {
     console.log(`Delivery boy reached ${address}.`);
-  }, 2000);
+  }, 6000);
 
   setTimeout(() => {
     console.log(`order is delivered successfully.`);
     console.log(`Thank you ${customer_name} order again.`);
-  }, 4000);
+  }, 10000);
 }
 
 // callback hell ...
 
 placeOrder(orderDetails, (orderDetails) => {
   preparingFood(orderDetails, (orderDetails) => {
-    pickupOrder(orderDetails, () => {
-      deliverOrder();
+    pickupOrder(orderDetails, (orderDetails) => {
+      deliverOrder(orderDetails);
     });
   });
 });
